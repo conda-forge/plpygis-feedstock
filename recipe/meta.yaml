@@ -1,13 +1,13 @@
 {% set name = "plpygis" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/plpygis-{{ version }}.tar.gz
-  sha256: f54976b4d367e68652db904842ed9e4c35f29618f75ff45ef81f5ccf92bf2d5b
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plpygis-{{ version }}.tar.gz
+  sha256: 2fc4dd0d8fab4868e799e74b15e991ed7bec5f198292343ef602839169e90b76
 
 build:
   noarch: python
