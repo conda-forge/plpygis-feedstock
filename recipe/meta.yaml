@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/plpygis-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/plpygis-{{ version }}.tar.gz
   sha256: f63baf26f38b2d674a37402b4f69a4a6d1e896416016f4b1714f96950c03ed86
 
 build:
